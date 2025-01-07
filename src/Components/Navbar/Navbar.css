@@ -1,16 +1,16 @@
 nav {
- width: 100%;
- color: white;
- padding: 4px 0px;
- position: fixed;
- top: 0;
- left: 0;
- display: flex;
- align-items: center;
- justify-content: space-between;
- z-index: 10;
- background-color: rgba(0, 0, 0, 0.089);
- transition: all 0.3s ease;
+width: 100%;
+color: white;
+padding: 4px 0px;
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 10;
+background-color: rgba(0, 0, 0, 0.089);
+transition: all 0.3s ease;
 }
 
 .logo {
@@ -63,7 +63,7 @@ ul li, ul.menu li {
  background: rgba(206, 206, 206, 0.8);
  padding: 20px;
  border-radius: 8px;
-}     
+}
 
 .hamburger + .menu li {
  margin: 10px 0;

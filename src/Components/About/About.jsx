@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import Tienda from '../../assets/Tienda.jpg'
-import Familia from '../../assets/Familia.JPG'
+import Familia from '../../assets/Familia.jpg'
 
 const About = () => {
   return (
@@ -34,6 +34,8 @@ const About = () => {
       </div>
 
     </div>
+
+
 
     // <div className='about container'>
     //     <div className="about-text">
