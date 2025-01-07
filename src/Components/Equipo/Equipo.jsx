@@ -1,6 +1,6 @@
 import React from 'react'
 import './Equipo.css'
-import Familia from '../../assets/Familia.jpg'
+// import Familia from '../../assets/Familia.jpg'
 
 const Equipo = () => {
   return (
