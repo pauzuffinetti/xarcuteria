@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import Tienda from '../../assets/Tienda.jpg'
-import Familia from '../../assets/Familia.jpg'
+import Duenios from '../../assets/Duenios.jpg'
 
 const About = () => {
   return (
@@ -30,7 +30,7 @@ const About = () => {
       </div>
 
       <div className="imagen-container">
-        <img src={Familia} alt="fotografía familiar" />
+        <img src={Duenios} alt="fotografía familiar" />
       </div>
 
     </div>
