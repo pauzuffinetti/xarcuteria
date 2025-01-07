@@ -10,12 +10,12 @@ import Producto7 from '../../assets/Producto7.jpg';
 
 const images = [
   { src: Producto1, description: 'Jamón crudo' },
-  { src: Producto2, description: 'algo' },
-  { src: Producto3, description: 'algo' },
-  { src: Producto4, description: 'algo' },
-  { src: Producto5, description: 'algo' },
-  { src: Producto6, description: 'algo' },
-  { src: Producto7, description: 'algo' },
+  { src: Producto2, description: 'Producto' },
+  { src: Producto3, description: 'Producto' },
+  { src: Producto4, description: 'Producto' },
+  { src: Producto5, description: 'Producto' },
+  { src: Producto6, description: 'Producto' },
+  { src: Producto7, description: 'Producto' },
 ];
 
 const Products = () => {

@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './Hero.css';
+import Tienda from '../../assets/Tienda.JPG'
 import Jamones from '../../assets/Jamones.jpg';
 import Vinos from '../../assets/Vinos.jpg';
 import Frascos from '../../assets/Frascos.jpg';
 
 
-const images = [Jamones, Vinos, Frascos];
+const images = [Tienda, Jamones, Vinos, Frascos];
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -26,10 +27,10 @@ const Hero = () => {
           style={{ backgroundImage: `url(${image})` }}
         ></div>
       ))}
-      <div className="hero-text">
+      {/* <div className="hero-text">
         <h1>XARCUTERIA LA PINEDA</h1>
         <p>Des del’any 1930</p>
-      </div>
+      </div> */}
     </div>
   );
 };

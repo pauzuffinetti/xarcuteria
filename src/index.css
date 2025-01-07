@@ -6,6 +6,7 @@
 } */
 
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 
 
 *{
@@ -50,11 +51,18 @@ strong{
   font-weight: 700;
 }
 
+h1{
+  font-family: "DM Serif Text", serif;
+}
+
 h2 {
+  font-family: "DM Serif Text", sans-serif;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffa947;
   margin-bottom: 20px;
+  margin-top: 40px;
+
 }
 
 p{
