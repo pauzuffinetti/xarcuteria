@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Tienda from '../../assets/Tienda.JPG'
+import Tienda from '../../assets/Tienda.jpg'
 import Familia from '../../assets/Familia.JPG'
 
 const About = () => {
