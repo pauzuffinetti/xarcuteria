@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './Hero.css';
+import Jamones from '../../assets/Jamones.jpg';
 import Vinos from '../../assets/Vinos.jpg';
 import Frascos from '../../assets/Frascos.jpg';
-import Jamones from '../../assets/Jamones.jpg';
+
 
 const images = [Jamones, Vinos, Frascos];
 
@@ -12,7 +13,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 4000); // Tiempo entre cambios de imagen
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
@@ -34,11 +35,6 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
-
-
-
 
 
 
